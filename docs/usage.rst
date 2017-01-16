@@ -2,6 +2,14 @@
 Usage
 ========
 
+.. graphviz::
+
+   digraph {
+      "From" -> "To";
+   }
+
+
+
 .. uml::
    
    @startuml 
