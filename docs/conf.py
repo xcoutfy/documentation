@@ -18,7 +18,8 @@ import os
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+
+sys.path.insert(0, os.path.abspath(''))
 
 # -- General configuration ------------------------------------------------
 
@@ -30,11 +31,17 @@ import os
 # ones.
 extensions = ['sphinxcontrib.plantuml', 'sphinx.ext.graphviz']
 
+
+plantuml = 'java -jar ../utils/plantuml.jar'
+
+plantuml_output_format = 'svg'
+
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
