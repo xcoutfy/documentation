@@ -33,8 +33,8 @@ extensions = ['sphinxcontrib.plantuml', 'sphinx.ext.graphviz']
 
 
 
-plantuml = 'java -jar  -Djava.awt.headless=true %s' % os.path.join(os.path.dirname(__file__), "../utils/plantuml.jar")
-
+#plantuml = 'java -jar  -Djava.awt.headless=true %s' % os.path.join(os.path.dirname(__file__), "../utils/plantuml.jar")
+plantuml = ' -Djava.awt.headless=true '
 plantuml_output_format = 'svg'
 
 
