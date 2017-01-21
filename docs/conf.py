@@ -32,7 +32,9 @@ sys.path.insert(0, os.path.abspath(''))
 extensions = ['sphinxcontrib.plantuml', 'sphinx.ext.graphviz']
 
 
-plantuml = 'java -jar ../utils/plantuml.jar'
+# plantuml = 'java -jar ../utils/plantuml.jar'
+
+plantuml = 'java -jar %s' % os.path.join(os.path.dirname(__file__), "utils/plantuml.jar")
 
 plantuml_output_format = 'svg'
 
