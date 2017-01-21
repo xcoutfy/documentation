@@ -14,7 +14,13 @@ Contents:
    :caption: Table of Contents
    :name: mastertoc
    :numbered:
-   :glob:
+
+   Introduction/index
+   Design_documents/index
+   Developer_manual/index
+   User_manual/index
+   Tutorial/index
+   Appendices/index
 
    alessandro <alex>
    contributing
