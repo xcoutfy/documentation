@@ -31,10 +31,11 @@ sys.path.insert(0, os.path.abspath(''))
 # ones.
 extensions = ['sphinxcontrib.plantuml', 'sphinx.ext.graphviz']
 
-
-
+# Define full path to use plantuml without non interactively
 #plantuml = 'java -jar  -Djava.awt.headless=true %s' % os.path.join(os.path.dirname(__file__), "../utils/plantuml.jar")
-plantuml = ' -Djava.awt.headless=true '
+
+plantuml = '/usr/bin/plantuml -Djava.awt.headless=true '
+
 plantuml_output_format = 'svg'
 
 
