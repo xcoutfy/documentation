@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Read the Docs Template's documentation!
+Documentation template for ReadTheDocs.org
 ==================================================
 
 Contents:
@@ -14,11 +14,21 @@ Contents:
 
    *
 
-.. uml::
-    Obj1 -> Obj2: Hello, world
-    activate Obj2
-    Obj2 --> Obj1: Goodbye, cruel world
-    deactivate Obj2
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents
+   :name: mastertoc
+   :numbered:
+
+
+   .. introduction/index
+   design/index
+   design/User_requirements
+   user_manual/index
+   tutorial/index
+   developer_manual/index
+   glossary/index
+
 
 
 
