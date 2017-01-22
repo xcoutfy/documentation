@@ -34,7 +34,15 @@ extensions = ['sphinxcontrib.plantuml', 'sphinx.ext.graphviz']
 # Define full path to use plantuml without non interactively
 #plantuml = 'java -jar  -Djava.awt.headless=true %s' % os.path.join(os.path.dirname(__file__), "../utils/plantuml.jar")
 
-plantuml = '/usr/bin/plantuml -Djava.awt.headless=true '
+from sys import platform
+if platform == "linux" or platform == "linux2":
+    plantuml = '/usr/bin/plantuml -Djava.awt.headless=true '
+elif platform == "darwin":
+    plantuml = 'java -jar  -Djava.awt.headless=true %s' % os.path.join(os.path.dirname(__file__), "../utils/plantuml.jar")
+elif platform == "win32":
+    plantuml = 'java -jar  -Djava.awt.headless=true %s' % os.path.join(os.path.dirname(__file__), "../utils/plantuml.jar")
+
+
 
 plantuml_output_format = 'svg'
 
@@ -43,7 +51,7 @@ plantuml_output_format = 'svg'
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = ['.rst','.md']
+source_suffix = ['.rst','.md','.puml']
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
