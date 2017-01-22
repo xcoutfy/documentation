@@ -22,7 +22,6 @@ Contents:
    Tutorial/index
    Appendices/index
 
-   alessandro <alex>
    contributing
    history
    installation
