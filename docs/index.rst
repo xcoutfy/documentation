@@ -8,26 +8,29 @@ Documentation template for ReadTheDocs.org
 
 Contents:
 
-.. toctree::
-   :maxdepth: 2
-   :glob:
 
-   *
 
 .. toctree::
-   :maxdepth: 2
    :caption: Table of Contents
    :name: mastertoc
    :numbered:
 
+   Introduction/index
+   Design_documents/index
+   Developer_manual/index
+   User_manual/index
+   Tutorial/index
+   Appendices/index
 
-   .. introduction/index
-   design/index
-   design/User_requirements
-   user_manual/index
-   tutorial/index
-   developer_manual/index
-   glossary/index
+   contributing
+   history
+   installation
+   sub_dir1/index
+   readme
+   usage
+
+
+
 
 
 

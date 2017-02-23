@@ -1,1 +1,2 @@
-.. include:: ../contributors.rst
+.. include:: ../Contributors.rst
+.. include:: authors.rst

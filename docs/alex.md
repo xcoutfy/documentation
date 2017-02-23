@@ -2,6 +2,9 @@
 Usage
 ========
 
+
+Test alex
+
 .. graphviz::
 
    digraph {
@@ -10,9 +13,3 @@ Usage
 
 
 
-.. uml::
-   
-   @startuml 
-   Alice -> Bob: Hi!
-   Alice <- Bob: How are you?
-   @enduml

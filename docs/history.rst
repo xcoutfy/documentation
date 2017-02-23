@@ -1,1 +1,2 @@
-.. include:: ../history.rst
+History page
+====================
