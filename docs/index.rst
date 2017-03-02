@@ -28,7 +28,7 @@ Contents:
    sub_dir1/index
    readme
    usage
-   alex.md
+   alex
 
 
 
