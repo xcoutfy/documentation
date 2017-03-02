@@ -1,3 +1,4 @@
+
 Software Documentation Template
 =================================
 This is a template to generate software documentation from textual
@@ -11,7 +12,10 @@ your can be hosted out-of-the-box on the [ReadTheDocs](https://readthedocs.org/)
 Diagrams written using PlantUML or Graphviz are rendered automatically
 by [Sphinx](sphinx-doc.org) 
 
-
+<a href="http://documentation-template.readthedocs.io/en/latest/?badge=latest" style="text-decoration: none;" onclick="$('#badge_markup').toggle(); return false;">
+        <img src="https://readthedocs.org/projects/documentation-template/badge/?version=latest" />
+      </a>
+      
 Installation
 ----------------
 
