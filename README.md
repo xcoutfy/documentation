@@ -14,7 +14,7 @@ by [Sphinx](sphinx-doc.org)
 
 
 
-![ReadTheDocs Status](https://readthedocs.org/projects/documentation-template/badge/?version=latest)
+[![Documentation Status](https://readthedocs.org/projects/software-documentation-template/badge/?version=latest)](http://software-documentation-template.readthedocs.io/en/latest/?badge=latest)
       
 Installation
 ----------------
