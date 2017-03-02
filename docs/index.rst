@@ -15,6 +15,7 @@ Contents:
    :name: mastertoc
    :numbered:
 
+   readme
    Introduction/index
    Design_documents/index
    Developer_manual/index
@@ -25,7 +26,7 @@ Contents:
    contributing
    history
    installation
-   readme
+
 
 
 
