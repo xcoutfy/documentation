@@ -13,8 +13,8 @@ Diagrams written using PlantUML or Graphviz are rendered automatically
 by [Sphinx](sphinx-doc.org) 
 
 
-<img src="https://readthedocs.org/projects/documentation-template/badge/?version=latest" />
 
+![ReadTheDocs Status](https://readthedocs.org/projects/documentation-template/badge/?version=latest)
       
 Installation
 ----------------
