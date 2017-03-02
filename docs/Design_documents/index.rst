@@ -1,31 +1,12 @@
-Design Documents
-===========================
+.. toctree::
+   :caption: Design Documents
+   :name: subtoc1
+   :glob:
 
 
-#. Architecture
-#. UML diagrams
-    * Use Cases
-    * Sequence Diagrams
-    * Class Diagram
-#. Code Organisation
-#. Requisites and Growth analysis
-#. Backup Policy and disaster recovery
-
-
-.. include:: sequence_diagram1.puml
-
-
-.. graphviz::
-
-   digraph {
-      "From" -> "To";
-   }
-
-
-
-.. uml::
-
-   @startuml
-   Alice -> Bob: Hi!
-   Alice <- Bob: How are you?
-   @enduml
+   requisites
+   architecture
+   uml_diagrams/uml_diagrams
+   code_organisation
+   sustainability
+   backup_policy
