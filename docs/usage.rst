@@ -13,6 +13,7 @@ Usage
 .. uml::
    
    @startuml 
-   Alice -> Bob: Hi!
+   skinparam monochrome true
+   Alice -> Bob: Hi! 
    Alice <- Bob: How are you?
    @enduml
