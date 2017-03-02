@@ -25,10 +25,11 @@ Contents:
    contributing
    history
    installation
-   sub_dir1/index
    readme
-   usage
-   alex
+
+
+
+
 
 
 

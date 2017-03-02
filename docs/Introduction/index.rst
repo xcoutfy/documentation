@@ -1,10 +1,15 @@
-Introduction on the project
+Project Introduction
 ===========================
 
 
-#. Founders
+
 #. Mission and Values
+#. Layman summary
+#. Destination users and summary of use cases
+#. Functionalities
+#. Timeplan, milestones and Gantt chart
 #. Future directions
 #. Funding Bodies
-#. References
 #. Web presence, social media and contacts
+#. References
+

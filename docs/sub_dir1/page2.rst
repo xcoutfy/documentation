@@ -2,7 +2,7 @@
 
 sub_dir1/page 2
 =====================
-
+page2.rst
 
 sub_dir1/page 2 title1
 ------------------------
