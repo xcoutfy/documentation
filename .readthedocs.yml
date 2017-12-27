@@ -1,0 +1,19 @@
+
+# Build PDF & ePub
+formats:
+    - pdf
+
+requirements_file: requirements.txt
+
+python:
+   version: 3.5
+   pip_install: true
+
+   extra_requirements:
+        - tests
+        - docs
+        - sphinxcontrib-plantuml
+        - sphinx-rtd-theme
+
+DOCKER_ENABLE: true
+DOCKER_IMAGE: readthedocs/build:latest
